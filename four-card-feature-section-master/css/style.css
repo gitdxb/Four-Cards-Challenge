@@ -1,4 +1,26 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  padding: 40px 40px;
+}
+.heading h1 {
+  font-weight: 200;
+  line-height: 0;
+}
+.heading h2 {
+  font-size: 32px;
+  line-height: 0.5;
+}
+.heading, .intro {
+  text-align: center;
+}
+
+.card {
+  display: grid;
+  padding: 40px;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin: 10px;
+  width: 350px;
+  height: 240px;
 }
